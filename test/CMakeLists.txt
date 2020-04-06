@@ -1,0 +1,2 @@
+add_subdirectory(LinkedListTests)
+add_subdirectory(StackWListTests)
