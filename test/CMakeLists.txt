@@ -1,2 +1,3 @@
 add_subdirectory(LinkedListTests)
 add_subdirectory(StackWListTests)
+add_subdirectory(SmartPointerTests)

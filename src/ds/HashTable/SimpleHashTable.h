@@ -1,0 +1,5 @@
+
+ namespace ds{
+  struct SimpleHashTable{
+  };
+}

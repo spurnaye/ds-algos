@@ -1,4 +1,5 @@
 #include "LinkedList/linkedlist.h"
+#include "SmartPointer/SmartPointer.h"
 using namespace ds;
 int main(int argc, const char *argv[]){
    LinkedList ll;

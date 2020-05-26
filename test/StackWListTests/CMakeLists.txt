@@ -6,5 +6,5 @@ add_executable(StackWListTests  ${SOURCE_FILES})
 
 add_test(StackWListTests ${CMAKE_BINARY_DIR}/StackWListTests)
 
-target_link_libraries (StackWListTests LinkedList gtest gtest_main gmock_main )
+target_link_libraries (StackWListTests DataStructures gtest gtest_main gmock_main )
 install(TARGETS StackWListTests  DESTINATION ${STACKWLIST_INSTALL_BIN_DIR})
