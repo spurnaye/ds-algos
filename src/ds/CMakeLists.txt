@@ -1,6 +1,7 @@
 add_subdirectory(LinkedList)
 add_subdirectory(StackWLinkedList)
 add_subdirectory(SmartPointer)
+add_subdirectory(LockFree)
 set(SOURCE_FILES main.cpp)
 set (CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 add_executable(llist ${SOURCE_FILES})

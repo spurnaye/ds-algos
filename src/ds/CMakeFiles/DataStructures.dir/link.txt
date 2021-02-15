@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -std=c++20 -O3 -g -G Ninja -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -dynamiclib -Wl,-headerpad_max_install_names -o libDataStructures.dylib -install_name @rpath/libDataStructures.dylib CMakeFiles/DataStructures.dir/main.cpp.o 
