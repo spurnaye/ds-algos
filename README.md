@@ -1,2 +1,5 @@
 # ds-algos
-Data structure Implementation of 
+- Data structure
+- Algorithms
+- Dynamic Programming
+- Multithreading
