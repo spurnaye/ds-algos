@@ -12,6 +12,7 @@ set(THREADS_PREFER_PTHREAD_FLAG ON)
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 
 set(CMAKE_INSTALL_PREFIX ${PROJECT_SOURCE_DIR})
+include_directories(common)
 include_directories(src)
 include_directories(test)
 

@@ -1,5 +1,6 @@
 #include "LinkedList/linkedlist.h"
 #include "SmartPointer/SmartPointer.h"
+#include "OptimizedString/string-impl.h"
 using namespace ds;
 int main(int argc, const char *argv[]){
    LinkedList ll;
@@ -11,6 +12,8 @@ int main(int argc, const char *argv[]){
    ll.print(); 
    std::cout << "Linked List initialized \n"; 
   
+  	MyString ms("this is cool");
+  	std::cout << ms.getSize() << '\n';
 
    return 0;
 }

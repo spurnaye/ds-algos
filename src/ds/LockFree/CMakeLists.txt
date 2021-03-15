@@ -9,4 +9,4 @@ install(TARGETS SPSCIntQueue RUNTIME DESTINATION bin)
 add_executable(lockFreeDS main.cpp)
 target_link_libraries(lockFreeDS SPSCIntQueue)
 
-
+add_executable(lfqHeadOnly NodeBasedQueueHeadOnly.cpp)

@@ -1,0 +1,5 @@
+add_executable(allPerms all_perm.cpp)
+add_executable(kChooseComb k_choose_comb.cpp)
+add_executable(kChooseComb2 k_choose_comb_2.cpp)
+add_executable(nQueens n_queens_problem.cpp)
+add_executable(targetSum target_sum.cpp)
