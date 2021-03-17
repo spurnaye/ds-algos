@@ -6,7 +6,7 @@ int main(){
 		int i = 0;
 		while(true){
 			Node* n = new Node(++i);
-			//LOG_INFO("pushing " << i << "in stack");
+			LOG_INFO("pushing " << i << "in stack");
 			ls.push(n);
 		}
 	});
@@ -15,6 +15,7 @@ int main(){
 		while(true){
 			Node* n = ls.pop();
 			if(n != nullptr){
+				delete n;
 				LOG_INFO("popped " << n->data << "from stack");
 			}else{
 				LOG_ERROR("nullptr");

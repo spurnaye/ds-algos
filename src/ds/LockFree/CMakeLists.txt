@@ -12,3 +12,5 @@ add_executable(lockFreeSPSCStack SPSCLockFreeStack.cpp)
 target_link_libraries(lockFreeDS SPSCIntQueue)
 
 add_executable(lfqHeadOnly NodeBasedQueueHeadOnly.cpp)
+
+add_executable(SPSCLockFreeQueue SPSCLockFreeQueue.cpp)
