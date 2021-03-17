@@ -24,7 +24,7 @@ struct NodeBasedQueueHeadOnly{
 		}
 		if(curr == nullptr) return curr;
 		Node* next = curr->next;
-		while(!curr->next.compare_exchange_weak(next, nullptr, std::memory_order_release)){}
+		while(!curr->next.compare_exchange_weak(next, nullptr, std::memory_order_release));
 		return next;
 	}
 

@@ -2,16 +2,16 @@
 #include <atomic>
 
 // open ended SPSC Queue
-struct SPSCIntQueue{
-   SPSCIntQueue(){
+struct SPSCSpinLockQueue{
+   SPSCSpinLockQueue(){
    	  head_ = new Node(-1, true);
    	  tail_ = new Node(-1, true);
    	  head_->next_ = tail_;
    	  tail_->prev_ = head_;
    };
 
-   SPSCIntQueue& operator=(const SPSCIntQueue& rhs) = delete;
-   SPSCIntQueue(const SPSCIntQueue& rhs) = delete;
+   SPSCSpinLockQueue& operator=(const SPSCSpinLockQueue& rhs) = delete;
+   SPSCSpinLockQueue(const SPSCSpinLockQueue& rhs) = delete;
 
    void push(int64_t data){
        Node* newNode = new Node(data);

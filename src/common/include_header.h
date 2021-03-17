@@ -12,6 +12,7 @@
 #include <chrono>
 #include <condition_variable>
 #include <future>
+#include <atomic>
 #include <shared_mutex>
 
 
@@ -58,3 +59,4 @@ void print(vectIntsRef v){
 	for(auto& i: v) print(i);
 	std::cout << "----->>>>>\n";
 }
+

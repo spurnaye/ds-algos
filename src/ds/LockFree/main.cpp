@@ -1,9 +1,10 @@
-#include "SPSCIntQueue.h"
+#include "SPSCSpinLockQueue.h"
+#include "SPSCLockFreeStack.h"
 #include <thread>
 #include <chrono>
 
 int main(){
-	SPSCIntQueue sp;
+	SPSCSpinLockQueue sp;
 	std::thread producer([&sp](){
 		int64_t x = 0;
 		while(true){
